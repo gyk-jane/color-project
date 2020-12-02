@@ -11,7 +11,7 @@ from sklearn import linear_model, datasets
 
 # .csv to list (color chart which contains all the HEX-note relationship)
 colors_by_notes = []
-with open('etc/color_chart.csv') as file:
+with open('color data/color_chart.csv') as file:
     reader = csv.reader(file, lineterminator = '\n')
     colors_by_notes = list(reader)
 df_colors = pd.DataFrame(colors_by_notes[1:], columns=colors_by_notes[0])    
