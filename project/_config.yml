@@ -2,8 +2,8 @@ title: color project
 logo: /assets/img/profile.png
 description: color project!
 show_downloads: false
-google_analytics:
+# google_analytics:
 theme: jekyll-theme-minimal
 is_project_page: true
-sass:
-  sass_dir: ./_sass
+# sass:
+#   sass_dir: ./_sass
