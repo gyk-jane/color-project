@@ -35,7 +35,12 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        <p class="view"><a href="{{ site.github.owner_url }}">💻 github</a>
+        <br><a href="/pages/art.html">🎨 art</a>
+        <br><a href="/pages/music.html">🎵 music</a>
+        <a href="javascript:;" onclick="copy();"><br>
+          <span data-text="Click to copy." class="email"></span></a>
+        </p>
         {% endif %}
 
         {% if site.github.is_user_page %}
