@@ -4,3 +4,4 @@ description: color project!
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+is_project_page: true
