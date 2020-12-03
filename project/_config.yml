@@ -6,5 +6,4 @@ google_analytics:
 theme: jekyll-theme-minimal
 is_project_page: true
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir: ./_sass
