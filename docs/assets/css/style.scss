@@ -289,3 +289,13 @@ footer {
     color:#444;
   }
 }
+
+.gradient-text {
+  background-image: linear-gradient(45deg, #c7c7c7, #86aad3);
+  background-size: 100%;
+}
+
+::selection {
+  background: #f0e2c8;
+  color: black;
+}

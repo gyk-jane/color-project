@@ -15,7 +15,9 @@
     <div class="wrapper">
       <header>
         <h1>
-            <a href="{{ "/" | absolute_url }}" style="color:black">{{ site.title | default: site.github.repository_name }}
+            <span class="gradient_text">
+                <a href="{{ "/" | absolute_url }}" style="color:black">{{ site.title | default: site.github.repository_name }}
+            </span>
         </h1>
         
         {% if site.logo %}
