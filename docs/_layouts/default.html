@@ -32,13 +32,13 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 
         {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">💻 github source <small>{{ site.github.repository_nwo }}</small></a>
+        <p class="view"><a href="{{ site.github.repository_url }}">💻 github<small>{{ site.github.repository_nwo }}</small></a>
             <br>insert description of project header.
             <br>-------------------------- 
-            <br><a href="index.md#introduction">introduction</a>
+            <br><a href="index.html#introduction">introduction</a>
         </p>
         {% endif %}
 
