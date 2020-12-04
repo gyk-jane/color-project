@@ -1,4 +1,3 @@
-# %%
 import music21 as m
 import pandas as pd
 import re
@@ -51,10 +50,3 @@ def get_csv(final_list, song_name):
     df_orgNotes.to_csv(song_name+'.csv', index=False)
 
 get_csv(midi_list('etc/Beethoven_Symphony_No._5_1st_movement_Piano_solo.mid'), 'Beethoven_Symphony_No._5_1st_movement_Piano_solo')
-
-
-# %%
-temp = m.converter.parse('Waltz_for_Debby.mid')
-temp.recurse().notesAndRests[15]
-
-# %    
