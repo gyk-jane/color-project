@@ -10,7 +10,7 @@ from PIL import Image
 from PIL import ImageFilter
 
 # extract default color <--> note relationship data from csv file into dataframe
-df_colors = pd.read_csv('etc/color_chart_RGB.csv')
+df_colors = pd.read_csv('color data/color_chart_RGB.csv')
 
 
 # @param string type: name of the csv file which contains all the notes of the music in a disgestable format
@@ -85,4 +85,4 @@ def next_square(n):
     next_num = int(sqrt(n)) + 1
     return next_num*next_num
 
-get_chart('Beethoven_Symphony_No._5_1st_movement_Piano_solo.csv')                                                                
+get_chart('output/waltz for debby.csv')                                                                

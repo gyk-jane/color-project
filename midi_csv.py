@@ -46,7 +46,6 @@ def midi_list(midi_file):
 def get_csv(final_list, song_name):
     col_names = ['type', 'note(s)', 'duration_type', 'duration_quarterLength', 'offset']
     df_orgNotes = pd.DataFrame(final_list, columns = col_names) 
-    df_orgNotes.to_html(song_name+'.html', index=False)
-    df_orgNotes.to_csv(song_name+'.csv', index=False)
+    df_orgNotes.to_csv('output/'+song_name+'.csv', index=False)
 
-get_csv(midi_list('etc/Beethoven_Symphony_No._5_1st_movement_Piano_solo.mid'), 'Beethoven_Symphony_No._5_1st_movement_Piano_solo')
+get_csv(midi_list('artists/bill evans/waltz for debby.mid'), 'waltz for debby')

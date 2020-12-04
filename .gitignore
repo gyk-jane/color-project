@@ -1,2 +1,5 @@
 workspace.code-workspace
 .vscode
+output
+analysis
+artists
